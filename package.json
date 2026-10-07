@@ -1,0 +1,28 @@
+{
+  "name": "verzel-store-qa-evaluation",
+  "version": "1.0.0",
+  "description": "Suíte de testes automatizados E2E e API da Verzel Store com Playwright e TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "qa",
+    "playwright",
+    "typescript",
+    "automation",
+    "e2e",
+    "verzel"
+  ],
+  "author": "Candidato QA Verzel",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
